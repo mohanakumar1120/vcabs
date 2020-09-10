@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    fetch('https://jsonplaceholder.typicode.com/todos/1')
+    .then(response => response.json())
+    .then(json => console.log(json))
+</script>
+
+
+<center>
+<!-- To start live server: ALT L+O -->
+ <!-- To open terminal : CTRL+SHIFT+` -->
+<body>
+    <h1>
+        V CABS
+    </h1>
+    
+        <br><br><br><br><br>
+        <a href="index.html">
+        <button id="login"><b>Login ►</b></button></a>
+        <br><br><br><br>
+        <a href="reg.html">
+        <button id="reg"><b>Register ►</b></button></a>
+    </center>
+</body>
+</html>
+
+<style>
+    h1{
+        font-style: arial;
+        color :rgb(236, 171, 6);
+    }
+     #login{  
+    width: 200px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 15px;  
+    padding-left: 8px;  
+     }
+
+     #reg{  
+    width: 200px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 15px;  
+    padding-left: 8px;  
+     }
+     body{
+         background-image:url('https://images.pexels.com/photos/1448598/pexels-photo-1448598.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') ;
+         background-repeat: no-repeat;
+         background-size: cover;
+     }
+</style>
+
